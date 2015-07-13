@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="exit">Beenden</string>
+    <string name="connected">Verbunden</string>
+    <string name="connecting">Verbinde</string>
+    <string name="disconnected">Getrennt</string>
+    <string name="authenticating">Authentifizieren …</string>
+    <string name="connect_error">Verbindung nicht möglich</string>
+    <string name="disconnecting">Trenne …</string>
+    <string name="waiting_for_cabinet">Warte auf Cabinet …</string>
+    <string name="already_connected">Bereits verbunden!</string>
+    <string name="not_connected">Nicht verbunden</string>
+    <string name="error">Fehler</string>
+    <string name="failed_upload_error">Upload von %1$s fehlgeschlagen. %2$s</string>
+    <string name="uploading_files">Lade Dateien hoch …</string>
+    <string name="add_account">Konto hinzufügen</string>
+    <string name="settings">Einstellungen</string>
+</resources>

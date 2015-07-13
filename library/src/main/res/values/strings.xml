@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">cabinet-plugin-framework</string>
+    <string name="exit">Exit</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="authenticating">Authenticating…</string>
+    <string name="connect_error">Unable to connect</string>
+    <string name="disconnecting">Disconnecting…</string>
+    <string name="waiting_for_cabinet">Waiting for Cabinet…</string>
+    <string name="already_connected">Already connected!</string>
+    <string name="not_connected">Not connected</string>
+    <string name="error">Error</string>
+    <string name="failed_upload_error">Failed to upload %1$s. %2$s</string>
+    <string name="uploading_files">Uploading files…</string>
+    <string name="add_account">Add Account</string>
+    <string name="settings">Settings</string>
+</resources>

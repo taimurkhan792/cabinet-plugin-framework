@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="exit">Keluar</string>
+    <string name="connected">Terhubung</string>
+    <string name="connecting">Menghubungkan</string>
+    <string name="disconnected">Terputus</string>
+    <string name="authenticating">Mengautentikasi…</string>
+    <string name="connect_error">Tidak dapat terhubung</string>
+    <string name="disconnecting">Memutuskan…</string>
+    <string name="waiting_for_cabinet">Menunggu Cabinet…</string>
+    <string name="already_connected">Sudah terhubung!</string>
+    <string name="not_connected">Tidak terhubung</string>
+    <string name="error">Kesalahan</string>
+    <string name="failed_upload_error">Gagal untuk mengunggah %1$s. %2$s</string>
+    <string name="uploading_files">Mengunggah berkas…</string>
+    <string name="add_account">Tambahkan Akun</string>
+    <string name="settings">Pengaturan</string>
+</resources>

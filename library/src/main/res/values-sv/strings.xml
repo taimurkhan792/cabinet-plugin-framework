@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="exit">Avsluta</string>
+    <string name="connected">Ansluten</string>
+    <string name="connecting">Ansluter</string>
+    <string name="disconnected">Frånkopplad</string>
+    <string name="authenticating">Verifierar</string>
+    <string name="connect_error">Kunde inte ansluta</string>
+    <string name="disconnecting">Kopplar ifrån…</string>
+    <string name="waiting_for_cabinet">Väntar på Cabinet…</string>
+    <string name="already_connected">Redan ansluten!</string>
+    <string name="not_connected">Inte ansluten</string>
+    <string name="error">Fel</string>
+    <string name="failed_upload_error">Kunde inte ladda upp %1$s. %2$s</string>
+    <string name="uploading_files">Laddar upp filer…</string>
+    <string name="add_account">Lägg till konto</string>
+    <string name="settings">Inställningar</string>
+</resources>

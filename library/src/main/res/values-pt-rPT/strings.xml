@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="exit">Sair</string>
+    <string name="connected">Conectado</string>
+    <string name="connecting">Estabelecendo ligação</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="authenticating">A autenticar…</string>
+    <string name="connect_error">Ligação não estabelecida</string>
+    <string name="disconnecting">A desligar…</string>
+    <string name="waiting_for_cabinet">À espera do Cabinet</string>
+    <string name="already_connected">Já está conectado!</string>
+    <string name="not_connected">Não conectado</string>
+    <string name="error">Erro</string>
+    <string name="failed_upload_error">Falha ao enviar %1$s. %2$s</string>
+    <string name="uploading_files">A enviar ficheiros…</string>
+    <string name="add_account">Adicionar conta</string>
+    <string name="settings">Definições</string>
+</resources>

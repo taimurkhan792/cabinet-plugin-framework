@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="exit">Esci</string>
+    <string name="connected">Connesso</string>
+    <string name="connecting">Connessione in corso</string>
+    <string name="disconnected">Disconnesso</string>
+    <string name="authenticating">Autenticazione in corso…</string>
+    <string name="connect_error">Impossibile connettersi</string>
+    <string name="disconnecting">Disconnessione in corso…</string>
+    <string name="waiting_for_cabinet">Aspettando Cabinet…</string>
+    <string name="already_connected">Già connesso!</string>
+    <string name="not_connected">Non connesso</string>
+    <string name="error">Errore</string>
+    <string name="failed_upload_error">Impossibile caricare %1$s. %2$s</string>
+    <string name="uploading_files">Caricamento file in corso…</string>
+    <string name="add_account">Aggiungi account</string>
+    <string name="settings">Impostazioni</string>
+</resources>

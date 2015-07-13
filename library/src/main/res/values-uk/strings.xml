@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="exit">Вийти</string>
+    <string name="connected">З\'єднаний</string>
+    <string name="connecting">З\'єднання</string>
+    <string name="disconnected">Від\'єднаний</string>
+    <string name="authenticating">Аутентифікація…</string>
+    <string name="connect_error">Неможливо з\'єднати</string>
+    <string name="disconnecting">Від\'єднання</string>
+    <string name="waiting_for_cabinet">Очікування Cabinet…</string>
+    <string name="already_connected">Вже з\'єднаний!</string>
+    <string name="not_connected">Не з\'єднаний</string>
+    <string name="error">Помилка</string>
+    <string name="failed_upload_error">Помилка при завантаженні %1$s. %2$s</string>
+    <string name="uploading_files">Завантаження файлів</string>
+    <string name="add_account">Додати аккаунт</string>
+    <string name="settings">Налаштування</string>
+</resources>

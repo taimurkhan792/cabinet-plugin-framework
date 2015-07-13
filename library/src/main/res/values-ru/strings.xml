@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="exit">Выйти</string>
+    <string name="connected">Подключен</string>
+    <string name="connecting">Подключение</string>
+    <string name="disconnected">Отключен</string>
+    <string name="authenticating">Аутентификация…</string>
+    <string name="connect_error">Невозможно подключить</string>
+    <string name="disconnecting">Отключение…</string>
+    <string name="waiting_for_cabinet">Ожидание Cabinet…</string>
+    <string name="already_connected">Уже подключен!</string>
+    <string name="not_connected">Не подключен</string>
+    <string name="error">Ошибка</string>
+    <string name="failed_upload_error">Ошибка при загрузке %1$s. %2$s</string>
+    <string name="uploading_files">Загрузка файлов…</string>
+    <string name="add_account">Добавить аккаунт</string>
+    <string name="settings">Настройки</string>
+</resources>

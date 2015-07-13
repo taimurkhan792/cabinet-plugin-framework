@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0 rc3"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "0.1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    maven { url 'https://dl.bintray.com/drummer-aidan/maven' }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:support-v13:22.2.0'
+    compile 'com.afollestad:material-dialogs:0.7.6.0'
+}
+
+//publish {
+//    userOrg = 'drummer-aidan'
+//    groupId = 'com.afollestad'
+//    artifactId = 'cabinet-plugin-framework'
+//    version = '0.1.0'
+//    description = 'A plugin framework for Cabinet File Manager, allowing 3rd parties to extend the functionality of Cabinet.'
+//    website = 'https://github.com/afollestad/cabinet-plugin-framework'
+//    issueTracker = "${website}/issues"
+//    repository = "${website}.git"
+//}
