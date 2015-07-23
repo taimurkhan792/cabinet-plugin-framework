@@ -1,9 +1,9 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "23.0.0 rc3"
+    buildToolsVersion "22.0.1"
 
     defaultConfig {
         minSdkVersion 14
@@ -30,48 +30,16 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.android.support:support-v13:22.2.1'
-    compile 'com.afollestad:material-dialogs:0.7.6.0'
+    compile 'com.afollestad:material-dialogs:0.7.7.0'
 }
 
-group = 'com.afollestad'
-version = '0.1.0'
-
-bintray {
-    user = 'drummer-aidan'
-    key = '1666f3b048571f2a7a97a0ad006a32fa5630d882'
-
-    configurations = ['archives']
-    dryRun = false
-    publish = true
-    pkg {
-        repo = 'maven'
-        name = 'material-dialogs'
-        websiteUrl = 'https://github.com/afollestad/cabinet-plugin-framework'
-        issueTrackerUrl = 'https://github.com/afollestad/cabinet-plugin-framework/issues'
-        vcsUrl = 'https://github.com/afollestad/cabinet-plugin-framework.git'
-        licenses = ['MIT']
-    }
-}
-
-task sourcesJar(type: Jar) {
-    from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
-}
-
-task javadoc(type: Javadoc) {
-    source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-}
-
-task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
-    from javadoc.destinationDir
-}
-artifacts {
-    archives javadocJar
-    archives sourcesJar
-}
-
-task findConventions << {
-    println project.getConvention()
+publish {
+    userOrg = 'drummer-aidan'
+    groupId = 'com.afollestad'
+    artifactId = 'cabinet-plugin-framework'
+    version = '0.1.0'
+    description = 'A plugin framework for Cabinet File Manager, allowing 3rd parties to extend the functionality of Cabinet.'
+    website = 'https://github.com/afollestad/cabinet-plugin-framework'
+    issueTracker = "${website}/issues"
+    repository = "${website}.git"
 }
