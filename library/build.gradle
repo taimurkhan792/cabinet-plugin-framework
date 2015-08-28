@@ -30,7 +30,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.android.support:support-v13:23.0.0'
-    compile 'com.afollestad:material-dialogs:0.7.8.1'
+    compile 'com.afollestad:material-dialogs:0.7.9.0'
 }
 
 publish {
