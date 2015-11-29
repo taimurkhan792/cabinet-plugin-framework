@@ -1,9 +1,11 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.afollestad'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.0"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         minSdkVersion 14
@@ -23,23 +25,12 @@ android {
 }
 
 repositories {
-    maven { url 'https://dl.bintray.com/drummer-aidan/maven' }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.0.0'
-    compile 'com.android.support:support-v13:23.0.0'
-    compile 'com.afollestad:material-dialogs:0.7.9.0'
-}
-
-publish {
-    userOrg = 'drummer-aidan'
-    groupId = 'com.afollestad'
-    artifactId = 'cabinet-plugin-framework'
-    version = '0.1.0'
-    description = 'A plugin framework for Cabinet File Manager, allowing 3rd parties to extend the functionality of Cabinet.'
-    website = 'https://github.com/afollestad/cabinet-plugin-framework'
-    issueTracker = "${website}/issues"
-    repository = "${website}.git"
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:support-v13:23.1.1'
+    compile 'com.github.afollestad.material-dialogs:core:0.8.5.1'
 }
